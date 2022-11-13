@@ -30,8 +30,8 @@ function Navbar(){
 
   return (
     <>
-      <Box mb={40} bg={"white"} px={4} as="header" position="fixed" w="100%" >
-        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+      <Box mb={40} bg={"white"} px={4} as="header" position="fixed" w="100%"  >
+        <Flex h={20} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
@@ -96,8 +96,34 @@ function Navbar(){
             </Flex>
             <Box display={{ base: 'none', md: 'inline-flex' }} ><Navlink to="/homepage"><Icon as={TbWorld} w={6} h={6}/></Navlink></Box>
             <Button display={{ base: 'none', md: 'inline-flex' }} ><Search2Icon /></Button>
-            <NavLink to="/login"><Button >Log in</Button></NavLink>
-            <NavLink to="/signup"><Button  display={{ base: 'none', md: 'inline-flex' }} >Sign Up</Button></NavLink>
+            <NavLink to="/login"><Box w={{base:"80px",md:"100px",lg:"120px"}} h={{base:"34px",md:"40px",lg:"45px"}} borderRadius="50px" bg="black" margin="auto">
+          <Button
+            className="btn-signup"
+            w="100%"
+            h="100%"
+            borderRadius="50px"
+            background="#ffe01b"
+            border="1px solid black"
+            pos="-moz-initial"
+            fontSize={{base:"15px",md:"16px",lg:"17px"}}
+          >
+Log in
+          </Button>
+          </Box></NavLink>
+            <NavLink to="/signup"><Box w={{base:"80px",md:"100px",lg:"120px"}} h={{base:"34px",md:"40px",lg:"45px"}} borderRadius="50px" bg="black" margin="auto" >
+          <Button
+            className="btn-signup"
+            w="100%"
+            h="100%"
+            borderRadius="50px"
+            background="#ffe01b"
+            border="1px solid black"
+            pos="-moz-initial"
+            fontSize={{base:"15px",md:"16px",lg:"17px"}}
+          >
+            Sign Up
+          </Button>
+          </Box></NavLink>
 
           </Flex>
         </Flex>

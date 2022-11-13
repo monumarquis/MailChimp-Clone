@@ -20,7 +20,7 @@ import Pricing from "./Pricing";
 import "./home.style.css";
 import VideoPoster from "../../Assets/videoposter.webp";
 import Video from "../../Assets/video.mp4";
-import VideoPlayer from "react-video-js-player";
+import VideoPlayer from "react-video-js-player"
 import Automations from "./automations";
 import useWindowSize from "./WindowSize";
 import {ArrowForwardIcon} from "@chakra-ui/icons"
@@ -129,7 +129,7 @@ function Home() {
   // };
 
   return (
-    <Box w="100%" height="auto">
+    <Box w="100%" height="auto" pt="40">
       {/* section top  */}
       <Box
         w="90%"
@@ -158,28 +158,7 @@ function Home() {
           Win new customers with the #1 email marketing and automations brand*
           that recomends ways to get more opens, clicks and sales.
         </Text>
-        {/* <Button
-          className="btn-signup"
-          display="block"
-          margin="auto"
-          mt={{ base: "16px", md: "18px", lg: "25px" }}
-          fontSize="13px"
-          borderRadius="50px"
-          w="120px"
-          h="50px"
-          border="1px solid black"
-          bg="#ffe01b"
-          style={{
-            borderBottom: isHovering ? "6px solid black" : "",
-            paddingBottom: isHovering ? "6px" : "",
-            background: isHovering ? "#ffe01b" : "",
-            transition: isHovering ? "0.3s" : "",
-          }}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          Sign Up
-        </Button> */}
+       
         <Box w="120px" h="50px" borderRadius="50px" bg="black" margin="auto" mt="30px">
           <Button
             className="btn-signup"
@@ -188,6 +167,7 @@ function Home() {
             borderRadius="50px"
             background="#ffe01b"
             border="1px solid black"
+            pos="-moz-initial"
           >
             Sign Up
           </Button>
@@ -212,7 +192,7 @@ function Home() {
       </Box>
 
       {/* video section */}
-      <Box height="auto" width="100%" bg="#241c15" pt="100px" pb="100px">
+      {/* <Box height="auto" width="100%" bg="#241c15" pt="100px" pb="100px">
         <Box
           width="80%"
           height={{ base: "30vh", md: "60vh", lg: "90vh" }}
@@ -239,7 +219,7 @@ function Home() {
           personalized recommendations for improving your content, targeting,
           and automations.
         </Text>
-      </Box>
+      </Box> */}
 
       {/* pricing sections */}
       <Pricing />

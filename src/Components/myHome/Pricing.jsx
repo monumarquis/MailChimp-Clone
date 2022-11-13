@@ -268,6 +268,7 @@ function Pricing() {
             borderRadius="50px"
             background="#ffe01b"
             border="1px solid black"
+            pos="-moz-initial"
           >
           See all plan Details
           </Button>

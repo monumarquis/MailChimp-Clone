@@ -5,7 +5,7 @@
     /* font-family: Arial, Helvetica, sans-serif; */
   /* } */ */
 .MailChimp{
-    width: 99.7%;
+    width: 100%;
     margin: auto;
     background-color: #ffffff;
 }
@@ -32,6 +32,7 @@
 
 .boom-MailChimp3>img{
     /* border: solid brown 1px; */
+    margin-left: 70px;
     width: 80%;
 }
 
@@ -86,7 +87,7 @@
 .boom-MailChimp-6B>div{
     height: 30px;
     display: flex;
-    margin-top: 5px;
+    margin-top: 20px;
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
@@ -186,7 +187,7 @@
 }
 
 .boom-MailChimp9-button{
-    width: 30%;
+    width: 40%;
     height:50px;
     background-color: black;
     border-radius: 30px;
