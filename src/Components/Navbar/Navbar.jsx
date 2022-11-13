@@ -27,7 +27,6 @@ function Navbar(){
     const linkHoverColor = useColorModeValue('teal.600', 'white');
     const popoverContentBgColor = useColorModeValue('white', 'gray.800');
   
-
   return (
     <>
       <Box mb={40} bg={"white"} px={4} as="header" position="fixed" w="100%" >
@@ -84,7 +83,7 @@ function Navbar(){
         </Box>
       ))}
 
-            </HStack>
+      </HStack>
           </HStack>
           <Box><NavLink to="/"><Image width={140} src='https://logos-world.net/wp-content/uploads/2021/02/Mailchimp-Logo-2018-present.png' alt='logo'/></NavLink>
           </Box>
@@ -116,12 +115,10 @@ function Navbar(){
     </>
   );
 }
-
 export default Navbar;
 
 
 const Links = ['Products', 'Resources', 'Inspiration','Pricing'];
-
 const Navlink = ({ children }) => (
   <NavLink
     px={2}
@@ -168,7 +165,6 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
     </NavLink>
   );
 };
-
 
 const NAV_ITEMS = [
   {
