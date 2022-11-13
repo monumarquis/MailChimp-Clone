@@ -2,7 +2,6 @@
 import "./NavbarResou.css";  
 import { FaChevronDown } from "react-icons/fa";
 
-
 const ResourcesNavbar = () => {
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {

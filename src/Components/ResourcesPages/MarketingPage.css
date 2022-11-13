@@ -15,9 +15,8 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 2%;
 }
-/* .Image-text{
-    font-size: 40px;
-} */
+
+
 .Marketing-Business-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
