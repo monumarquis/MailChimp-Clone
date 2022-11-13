@@ -14,7 +14,7 @@ const AddtoProduct = () => {
     setimage(URL.createObjectURL(e.target.files[0]))
     }
   return (
-   <Container centerContent maxW="90%" mt="20" zIndex={0}>
+   <Container centerContent maxW="90%" pt="20" zIndex={0}>
      <Stack  direction={{"base":"column","sm":"column","md":"column","lg":"row"}} spacing="40" mb="10" >
              <VStack w={["100%","100%","100%","40%"]} spacing="20">
                 <Heading fontWeight={400} color='gray.800'>Now let’s add your first product:</Heading>

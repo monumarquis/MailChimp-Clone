@@ -15,13 +15,13 @@ import Footer from"../Footer/Footer"
 import {AddIcon, MinusIcon,} from "@chakra-ui/icons"
 // import { useState } from "react";
 import { Box, Heading, Text, Button ,Image ,Input} from "@chakra-ui/react";
+import { NavLink } from "react-router-dom";
 function PriceComp() {
 
   
   return (
     <Box w="100%" h="auto">
       {/* -----------------navbar----------------- */}
-<Box></Box>
 
       <Box className="price-C">
         <Box className="price-section1">
@@ -47,7 +47,7 @@ function PriceComp() {
             borderRadius="50px"
             background="#ffe01b"
             border="1px solid black"
-           
+           pos='-moz-initial'
           >
             Buy Now
           </Button>
@@ -77,7 +77,7 @@ function PriceComp() {
             borderRadius="50px"
             background="#ffe01b"
             border="1px solid black"
-           
+            pos='-moz-initial'
           >
             Buy Now
           </Button>
@@ -106,9 +106,9 @@ function PriceComp() {
             borderRadius="50px"
             background="#ffe01b"
             border="1px solid black"
-           
+            pos='-moz-initial'
           >
-            Buy Now
+           <NavLink to='/signup'>Buy Now</NavLink> 
           </Button>
           </Box>
         </Box>
@@ -133,7 +133,7 @@ function PriceComp() {
           borderRadius="50px"
           h="100%"
           w="100%"
-          
+          pos='-moz-initial'
           fontWeight={500}
         >
           Compare our plans
@@ -176,6 +176,7 @@ function PriceComp() {
             bg="#ffe01b"
             border="1px solid black"
             borderRadius="50px"
+            pos='-moz-initial'
           >
             Buy Now
           </Button>
@@ -192,7 +193,7 @@ function PriceComp() {
         <Text mb="50px" fontSize={{base:"14px", md:"16px", lg:"19px"}} fontWeight={450} >All Websites & Commerce plans come with <span  style ={{color:"#04535d",fontWeight:"bolder"}}>Free marketing features </span> like email and social posting, so you can find new customers and drive sales. But if you want more advanced marketing tools, like our <span  style ={{color:"#04535d",fontWeight:"bolder"}}>Customer Journey Builder</span> , try a paid Marketing plan.</Text>
         <Box w="230px" height="50px" borderRadius="50px" bg="black" mb="50px">
 
-        <Button className="btn-buy" w="100%" h="100%" borderRadius="50px" bg="white" border="1px solid black">Explore Marketing plans</Button>
+        <Button  pos='-moz-initial' className="btn-buy" w="100%" h="100%" borderRadius="50px" bg="white" border="1px solid black">Explore Marketing plans</Button>
         </Box>
       </Box>
     </Box>
@@ -207,7 +208,7 @@ function PriceComp() {
             <Input mb="25px" height={100}  border="1px solid blue" placeholder="Start Your Search Here" className="search-inp" fontSize={35}></Input>
             <Box w="200px" height="60px" borderRadius="50px" bg="black" mb="50px">
 
-                   <Button className="btn-buy" w="100%" h="100%" borderRadius="50px" bg="#ffe01b" border="1px solid black">Find Your Domain</Button>
+                   <Button  pos='-moz-initial' className="btn-buy" w="100%" h="100%" borderRadius="50px" bg="#ffe01b" border="1px solid black">Find Your Domain</Button>
              </Box>
           </Box>
           <Box>
@@ -230,7 +231,7 @@ function PriceComp() {
 <Text mb="40px" fontSize={{base:"18px" ,md:"17.5px",lg:"19px"}}>Restrictions apply. See our full <a href="https://" style={{borderBottom:".1px solid black"}}> terms and conditions.</a></Text>
 <Box w="150px" height="50px" borderRadius="50px" bg="black" mb="50px">
 
-<Button className="btn-buy" w="100%" h="100%" borderRadius="50px" bg="white" border="1px solid black">Get Started</Button>
+<Button pos='-moz-initial' className="btn-buy" w="100%" h="100%" borderRadius="50px" bg="white" border="1px solid black">Get Started</Button>
 </Box>
   </Box>
   <Box padding="10%" paddingTop={0}>
@@ -239,7 +240,7 @@ function PriceComp() {
 <Text mb="40px" fontSize={{base:"16px" ,md:"17.5px",lg:"19px"}} color="white">Restrictions apply. See our full</Text>
 <Box w="150px" height="50px" borderRadius="50px" bg="black" mb="50px">
 
-<Button className="btn-buy" w="100%" h="100%" borderRadius="50px" bg="white" border="1px solid black">Get Started</Button>
+<Button  pos='-moz-initial' className="btn-buy" w="100%" h="100%" borderRadius="50px" bg="white" border="1px solid black">Get Started</Button>
 </Box>
   </Box>
 </Box>
@@ -253,7 +254,7 @@ function PriceComp() {
       <Heading mb="50px">Need to help clients use Mailchimp?</Heading>
       <Text color="#837988" mb="50px" fontSize={{base:"16px" , md:"17.5px" ,lg:"19px"}}>Unlock the tools you need to get work done for clients when you sign up through Mailchimp & Co, our community for freelancers and agencies. It’s free to join with any Mailchimp plan.</Text>
       <Box  w="200px" height="60px" borderRadius="50px" bg="black" mb="50px">
-          <Button className="btn-buy" w="100%" h="100%" borderRadius="50px" bg="white" border="1px solid black">Find Your Domain</Button>
+          <Button  pos='-moz-initial' className="btn-buy" w="100%" h="100%" borderRadius="50px" bg="white" border="1px solid black">Find Your Domain</Button>
       </Box>
     </Box>
   </Box>

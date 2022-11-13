@@ -45,7 +45,7 @@ const campaignData2=[
 const AdminHome = () => {
   return (
     <div>
-        <Heading ml={20} mb='7' mt={7} fontFamily="Heading" color={"gray.700"}>Home</Heading>
+        <Heading ml={20} mb='7' pt={20} fontFamily="Heading" color={"gray.700"}>Home</Heading>
         <Divider />
         <Container centerContent mt={20} borderColor="red" border={"1px"} maxW="1100px">
         <Accordion allowToggle w="100%">

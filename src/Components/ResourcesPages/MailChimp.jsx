@@ -1,7 +1,7 @@
 
 import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Button, Container, Flex, Image, Img, Text } from "@chakra-ui/react";
 import { useState } from "react";
-import { FaChevronRight, FaArrowRight, FaAngleDown, FaAngleUp, FaPlusCircle } from "react-icons/fa";
+import { FaChevronRight, FaArrowRight, FaPlusCircle } from "react-icons/fa";
 import "./MailChimp.css";
 // import "./MarketingPage.css";
 import ResourcesNavbar from "./ResourcesNavbar";

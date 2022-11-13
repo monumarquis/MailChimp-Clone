@@ -17,6 +17,7 @@ import {
   // import {Link, useNavigate} from "react-router-dom";
   import {useSelector , useDispatch} from 'react-redux';
   import { userEmail} from '../../Redux/actions'
+import { NavLink } from 'react-router-dom';
   
 export default function Login() {
 
@@ -56,7 +57,7 @@ export default function Login() {
           <Image width={10} py={8} src='https://login.mailchimp.com/release/1.1.12db68f65958dbea8011b2efdf4e026e5d28738e2/images/brand_assets/logos/mc-freddie-dark.svg' alt='logo-login'/>
             <Stack py={14} spacing={8} w={"100%"}>
             <Heading fontSize={'4xl'}>Log In</Heading>
-            <Text fontSize={'md'}>Need a Mailchimp account? <Link color={"teal.600"}>Create an account</Link></Text>
+            <Text fontSize={'md'}>Need a Mailchimp account? <NavLink color={"teal.600"} to="/signup">Create an account</NavLink></Text>
             <FormControl id="email">
               <FormLabel fontWeight={'bold'}>Username or Email</FormLabel>
               <Input type="email" ref={emailRef} />

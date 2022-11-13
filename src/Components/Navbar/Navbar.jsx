@@ -86,7 +86,7 @@ function Navbar(){
 
             </HStack>
           </HStack>
-          <Box><Image width={140} src='https://logos-world.net/wp-content/uploads/2021/02/Mailchimp-Logo-2018-present.png' alt='logo'/>
+          <Box><NavLink to="/"><Image width={140} src='https://logos-world.net/wp-content/uploads/2021/02/Mailchimp-Logo-2018-present.png' alt='logo'/></NavLink>
           </Box>
             
           <Flex alignItems={'center'} gap={6}>
@@ -96,8 +96,8 @@ function Navbar(){
             </Flex>
             <Box display={{ base: 'none', md: 'inline-flex' }} ><Navlink to="/homepage"><Icon as={TbWorld} w={6} h={6}/></Navlink></Box>
             <Button display={{ base: 'none', md: 'inline-flex' }} ><Search2Icon /></Button>
-            <Button  ><NavLink to="/login">Log in</NavLink></Button>
-            <Button  display={{ base: 'none', md: 'inline-flex' }} ><NavLink to="/signup">Sign Up</NavLink></Button>
+            <NavLink to="/login"><Button >Log in</Button></NavLink>
+            <NavLink to="/signup"><Button  display={{ base: 'none', md: 'inline-flex' }} >Sign Up</Button></NavLink>
 
           </Flex>
         </Flex>
