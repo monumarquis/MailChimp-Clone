@@ -8,8 +8,6 @@ import ResourcesNavbar from "./ResourcesNavbar";
 import Footer from"../Footer/Footer"
 const MailChimp = () => {
 
-    // const [allowToggle, setAllowToggle] = useState(true)
-
     return (
         <div>
             <ResourcesNavbar />

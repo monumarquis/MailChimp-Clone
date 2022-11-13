@@ -1,5 +1,4 @@
 
-
 import { Box, Button, Container, Flex, Image, Input, Text } from "@chakra-ui/react";
 import { FiSearch } from "react-icons/fi";
 import "./HelpCenterPage.css";
