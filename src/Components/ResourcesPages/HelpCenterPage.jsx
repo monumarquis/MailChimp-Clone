@@ -3,7 +3,7 @@
 
 import { Button, Box, Flex, Image, Input, Text, Container } from "@chakra-ui/react";
 
-import { Box, Button, Container, Flex, Image, Input, Text } from "@chakra-ui/react";
+
 
 import { FiSearch } from "react-icons/fi";
 import Footer from "../Footer/Footer";
