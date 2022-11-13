@@ -17,11 +17,11 @@ import {
   // import {Link, useNavigate} from "react-router-dom";
   import {useSelector , useDispatch} from 'react-redux';
   import { userEmail} from '../../Redux/actions'
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
   
 export default function Login() {
 
-  const userReduxEmail = useSelector( store => store.email);
+  const userReduxEmail = useSelector( store => store.isAuth);
     console.log("redux data",userReduxEmail );
 
     const dispatch = useDispatch();
@@ -30,7 +30,7 @@ export default function Login() {
     const [userNotFound,setuserNotFount]=useState(false);
     const emailRef=useRef();
     const passwordRef=useRef();
-    // const usenavigate=useNavigate()
+    const usenavigate=useNavigate()
 
     async function signin(){
       setloading(true)
@@ -39,7 +39,8 @@ export default function Login() {
       try{
           await login(emailRef.current.value,passwordRef.current.value)
           alert("Login Succesful")
-          // usenavigate("/")
+          usenavigate("/adminpannel");
+
       }catch(error){
           setuserNotFount(true)
           var errorMessage = error.message;
@@ -48,7 +49,7 @@ export default function Login() {
       }
       setloading(false)
   }
-
+  console.log(userReduxEmail);
 
     return (
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }} bg="#ffe01b">
