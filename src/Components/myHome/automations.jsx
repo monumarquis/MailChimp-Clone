@@ -26,17 +26,7 @@ function Automations({data,heading}){
 </Box>
     ))
 }
-{/* <Box className="autometion-grid">
-    <Image src={Auto1} alt="img1" height="80vh" width="100%" objectFit="cover"></Image>
-    <Box>
-        <Text fontSize={{ base: '18px', md: '25px', lg: '30px' }} fontWeight={500} ml="10%" mb="10px">Convert more customers at scale</Text>
-        <Text fontSize={{ base: '16px', md: '20px', lg: '25px' }} ml="10%" mb="20px">
-        Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.
-        </Text>
 
-        <Text className="learn">Learn more  <ArrowForwardIcon bg="yellow" w="25px" h="25px" borderRadius="50%" /> </Text>
-    </Box>
-</Box> */}
 
 </Box>
         </Box>

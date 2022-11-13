@@ -32,7 +32,7 @@ import {
   AccordionPanel,
   AccordionIcon,
 } from "@chakra-ui/react";
-
+ 
 let Data = [
   {
     id: 1,
@@ -108,7 +108,7 @@ const Autometion2 = [
 ];
 
 function Home() {
-  // const [isHovering, setIsHovering] = useState(false);
+  
   const [gridData] = useState(Data);
   const [auto] = useState(Autometion1);
   const [auto2] = useState(Autometion2);
@@ -120,13 +120,7 @@ function Home() {
     "Generate up to 4x more orders* with Customer Journey Builder automations";
   const heading2 =
     "Get up to 88% more revenue* with our Customer Lifetime Value and Likelihood to Purchase segments";
-  // const handleMouseEnter = () => {
-  //   setIsHovering(true);
-  // };
-
-  // const handleMouseLeave = () => {
-  //   setIsHovering(false);
-  // };
+ 
 
   return (
     <Box w="100%" height="auto" pt="40">
@@ -158,7 +152,11 @@ function Home() {
           Win new customers with the #1 email marketing and automations brand*
           that recomends ways to get more opens, clicks and sales.
         </Text>
+
        
+
+     
+
         <Box w="120px" h="50px" borderRadius="50px" bg="black" margin="auto" mt="30px">
           <Button
             className="btn-signup"

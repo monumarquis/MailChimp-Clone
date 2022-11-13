@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./email.css";
 import {
   Box,
@@ -15,6 +16,10 @@ import {
 // import AiOutlineArrowRight from 'react-icons/AiOutlineArrowRight';
 // angle right
 // import AiOutlineArrowRight from "react-icons";
+
+import './email.css';
+import { Box, Button, CheckboxIcon, Container, Flex, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
+
 import { MdDone } from "react-icons/md";
 import Footer from "../Footer/Footer";
 import Pricing from "../myHome/Pricing";
