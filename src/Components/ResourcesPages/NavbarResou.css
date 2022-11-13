@@ -10,8 +10,6 @@ body {
     width: 100%;
     margin: auto;
     background-color: white;
-    position: fixed;
-    top: 0;
     height: 70px;
     align-items: center;
     justify-content: center;

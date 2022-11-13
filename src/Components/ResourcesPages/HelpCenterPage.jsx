@@ -1,15 +1,21 @@
 
+
+
+import { Button, Box, Flex, Image, Input, Text, Container } from "@chakra-ui/react";
+
 import { Box, Button, Container, Flex, Image, Input, Text } from "@chakra-ui/react";
+
 import { FiSearch } from "react-icons/fi";
+import Footer from "../Footer/Footer";
 import "./HelpCenterPage.css";
 import "./MarketingPage.css";
-import Footer from"../Footer/Footer"
+
 const HelpCenterPage = () => {
 
     return (
         <div>
-            <Container w="full">
-                <Container margin="auto" border="solid #fbeeca 1px" bgColor="#fbeeca">
+            <Container maxW="100%" border="solid #00000 1px">
+                <Box margin="auto" border="solid #fbeeca 1px" bgColor="#fbeeca">
                     <Box className="HelpCenter-1stDiv" w="80%" margin="auto"
                         // border="solid green 1px" 
                         marginTop="100px" marginBottom="100px">
@@ -33,9 +39,9 @@ const HelpCenterPage = () => {
                             <Image w="90%" src="https://eep.io/images/yzco4xsimv0y/2acL1QmHnWiQc0mYwYKi0C/dd5586458792da808d3376b4846a787a/guides-tutorials.png?w=760&fm=webp&q=70" alt="" />
                         </Box>
                     </Box>
-                </Container>
+                </Box>
 
-                <Container w="80%" margin="auto"
+                <Box w="80%" margin="auto"
                 // border="solid yellow 1px" 
                 >
                     <Flex className="Input-Box" margin="auto" marginTop="100px" alignItems="center">
@@ -82,11 +88,11 @@ const HelpCenterPage = () => {
                         </Box>
 
                     </Box>
-                </Container>
+                </Box>
 
                 {/* YELLOW DIV */}
 
-                <Container bgColor="#ffe01b" marginTop="80px">
+                <Box bgColor="#ffe01b" marginTop="80px">
                     <Box className="HelpCenter-1stDiv" width="70%" margin="auto"
                     // border="solid red 1px" 
                     >
@@ -98,10 +104,10 @@ const HelpCenterPage = () => {
                         <Box
                             // border="solid 1px red" 
                             marginTop="100px">
-                            <Box w="95%">
+                            <Box w="100%">
                                 <Text className="Heading-text">Contact our support team</Text>
                             </Box>
-                            <Box w="80%">
+                            <Box w="80%" mb="10">
                                 <Text className="Middle-text">Have more questions? Paid users can log in and email or chat with us.</Text>
                             </Box>
 
@@ -130,11 +136,11 @@ const HelpCenterPage = () => {
 
                         </Box>
                     </Box>
-                </Container>
+                </Box>
 
                 {/* Help by topic Section */}
 
-                <Container w="80%" margin="auto"
+                <Box w="80%" margin="auto"
                 // border="solid yellow 1px" 
                 >
                     <Box
@@ -252,15 +258,15 @@ const HelpCenterPage = () => {
                         </Box> */}
 
                     </Box>
-                </Container>
+                </Box>
 
                 {/* WATCH WEBINAR */}
 
                 <Box w="80%" margin="auto" border="solid black 0.5px" marginTop="50px" bgColor="black"></Box>
 
-                <Container>
+                <Box>
 
-                    <Container margin="auto"
+                    <Box margin="auto"
                     // border="solid red 1px" 
                     >
                         <Box className="HelpCenter-1stDiv-2" w="80%" margin="auto"
@@ -288,9 +294,10 @@ const HelpCenterPage = () => {
                                         w="100%"
                                         h="100%"
                                         mb="50px"
-                                        // bg="#FFE01B"
+                                       
                                         border="1px solid black"
                                         borderRadius="50px"
+                                        mt="10"
                                     >
                                         Watch Now
                                     </Button>
@@ -303,16 +310,16 @@ const HelpCenterPage = () => {
                                 <Image w="70%" src="https://eep.io/images/yzco4xsimv0y/4EZ4VNCFDDUBoyhZK9KdtN/edb5b15b81b20c210adafeb719fc8700/ILLO_MiniSpot_CustomersOnlinev1_JamesDaw_1080x1080.png?w=760&fm=webp&q=80" alt="" />
                             </Box>
                         </Box>
-                    </Container>
-                </Container>
+                    </Box>
+                </Box>
 
                 {/* Get help from an expert */}
 
                 <Box w="80%" margin="auto" border="solid black 0.5px" marginTop="50px" bgColor="black"></Box>
 
-                <Container>
+                <Box>
 
-                    <Container margin="auto"
+                    <Box margin="auto"
                     // border="solid red 1px"
                     >
                         <Box className="HelpCenter-1stDiv" w="80%" margin="auto"
@@ -345,9 +352,9 @@ const HelpCenterPage = () => {
                                         w="100%"
                                         h="100%"
                                         mb="50px"
-                                        // bg="#FFE01B"
                                         border="1px solid black"
                                         borderRadius="50px"
+                                        mt="10"
                                     >
                                         Browse the directory
                                     </Button>
@@ -356,15 +363,15 @@ const HelpCenterPage = () => {
                             </Box>
 
                         </Box>
-                    </Container>
-                </Container>
+                    </Box>
+                </Box>
 
 
                 <Box w="80%" margin="auto" border="solid black 0.5px" marginTop="50px" bgColor="black"></Box>
 
-                <Container>
+                <Box>
 
-                    <Container margin="auto"
+                    <Box margin="auto"
                     // border="solid red 1px" 
                     >
                         <Box className="HelpCenter-1stDiv-2" w="80%" margin="auto"
@@ -401,6 +408,7 @@ const HelpCenterPage = () => {
                                         // bg="#FFE01B"
                                         border="1px solid black"
                                         borderRadius="50px"
+                                        mt="10"
                                     >
                                         Contact us
                                     </Button>
@@ -413,11 +421,11 @@ const HelpCenterPage = () => {
                                 <Image w="70%" src="https://eep.io/images/yzco4xsimv0y/4ggb8bfvrOyCiGkwyyKEQ4/237acc9d210ebeb0fd9c55127d457563/signup-pencil.png?w=760&fm=webp&q=80" alt="" />
                             </Box>
                         </Box>
-                    </Container>
-                </Container>
+                    </Box>
+                </Box>
 
             </Container>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

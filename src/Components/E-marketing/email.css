@@ -1,15 +1,14 @@
 .container{
     display: grid;
-    grid-template-columns: repeat(4,350px);
+    grid-template-columns: repeat(4,1fr);
     gap: 2px;
+    width: 100%;
     margin-top:2%;
-    padding:9px;
-    margin-left:4%;
 }
 .start_box{
     width: 550px;
     margin-left: 15%;
-    margin-top: 2%;
+    padding-top: 20px;
 }
 .container>div{
     /* border: 2px solid red; */

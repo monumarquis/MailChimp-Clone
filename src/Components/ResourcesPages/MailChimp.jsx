@@ -10,14 +10,14 @@ const MailChimp = () => {
 
     return (
         <div>
-            <ResourcesNavbar />
-            <div className="MailChimp">
-                {/* <h1>MailChimp</h1> */}
+            
+            {/* <div className="MailChimp"> */}
+                <Box pt="20">
+                <ResourcesNavbar />
+                </Box>
 
-
-                <Container width="100%" height="800px"
-                    border="solid #fbeeca 1px"
-                    margin="auto" bgColor="#fbeeca" >
+                <Container maxW="100%" height="800px"
+                    border="solid #fbeeca 1px" bgColor="#fbeeca" >
                     <Box>
                         <Box display="flex" justifyContent="center" gap="15px" fontSize="16px" fontWeight="600" color="teal" marginTop="200px">
                             <Text>PREP & START</Text>
@@ -25,13 +25,13 @@ const MailChimp = () => {
                             <Text>MARKETING TOOLS</Text>
                         </Box>
 
-                        <Box width="50%" margin="auto" fontSize="40px" fontWeight="450" fontStyle="revert-layer" marginTop="-3rem">
+                        <Box textAlign={"center"} width="50%" margin="auto" fontSize="40px" fontWeight="450" fontStyle="revert-layer" marginTop="3rem">
                             <Text>How to Use Mailchimp</Text>
                         </Box>
 
                         <Box className="First"
-                            border="solid #fbeeca 1px"
-                            margin="auto" fontSize="25px" fontWeight="100" marginTop="-1rem">
+                            border="solid #fbeeca 1px" textAlign={"center"} 
+                            margin="auto" fontSize="25px" fontWeight="100" marginTop="1rem">
                             <Text>New to Mailchimp and not sure where to start? We’ll walk you through the basic uses so you know what to expect along the way.</Text>
                         </Box>
 
@@ -40,7 +40,7 @@ const MailChimp = () => {
 
                 {/* IMAGE DIV */}
 
-                <Container width="80%"
+                <Container maxW="80%"
                     border="solid #ffffff 1px"
                     margin="auto" bgColor="#ffffff" >
                     <Box width="70%"
@@ -78,7 +78,7 @@ const MailChimp = () => {
                                         w="100%"
                                         h="100%"
                                         mb="50px"
-                                        // bg="#FFE01B"
+                                      mt="10"
                                         border="1px solid black"
                                         borderRadius="50px"
                                     >
@@ -135,7 +135,7 @@ const MailChimp = () => {
 
                 {/* ID-7  CONTACT */}
 
-                <Container width="100%"
+                <Container maxW="100%"
                     // border="solid red 1px" 
                     bgColor="#f6f6f4" margin="auto" >
                     <Box width="80%"
@@ -150,7 +150,7 @@ const MailChimp = () => {
                             <Box width="48%" textAlign="start">
                                 <Text width="60%" fontSize="2.8vw">No contacts? No problem.</Text>
 
-                                <Box width="70%" fontSize="1.3vw" fontWeight="300" marginTop="-30px">
+                                <Box width="70%" fontSize="1.3vw" fontWeight="300" marginTop="30px">
                                     <Text>Let people sign up for your marketing with a landing page.</Text>
                                 </Box>
 
@@ -168,11 +168,12 @@ const MailChimp = () => {
                                         bg="#FFE01B"
                                         border="1px solid black"
                                         borderRadius="50px"
+                                        mt="10"
                                     >
                                         Create A Landing Page
                                     </Button>
 
-                                    <a href="https://mailchimp.com/features/landing-pages/">
+                                    <a style={{"marginTop":"55px"}} href="https://mailchimp.com/features/landing-pages/">
                                         Learm More About Landing Page
                                     </a>
                                 </Box>
@@ -183,7 +184,7 @@ const MailChimp = () => {
 
                 {/* ID - 8 */}
 
-                <Container width="80%"
+                <Container maxW="80%"
                     //  border="solid green 1px" 
                     margin="auto" bgColor="#ffffff" marginTop="100px">
 
@@ -275,11 +276,6 @@ const MailChimp = () => {
 
                                 <Box borderBottom="solid black 1px"></Box>
 
-                                {/* <div className="boom-MailChimp5-button">
-                                <button className="button">
-                                    Get Started
-                                </button>
-                            </div> */}
                             </div>
 
                             <div className="boom-MailChimp3">
@@ -345,7 +341,7 @@ const MailChimp = () => {
                 {/* ID - 9 */}
                 {/* COLOUR DIV */}
 
-                <Container w="100%" margin="auto"
+                <Container maxW="100%" 
                 // border="solid green 1px"
                 >
                     <div className="Colur-div" margin="auto" justifyContent="center">
@@ -364,7 +360,7 @@ const MailChimp = () => {
 
                 {/* WHITE BACKGROUND SECTION */}
 
-                <Container width="80%"
+                <Container maxW="80%"
                     //  border="solid green 1px" 
                     margin="auto" bgColor="#ffffff" >
 
@@ -387,16 +383,7 @@ const MailChimp = () => {
                                 <div>
                                     <p>With Customer Journey builder, deliver relevant messages to your customers based on how they engage with your business. Design and automate a customized path for your customer that turns window shoppers into lifelong customers.</p>
                                 </div>
-                                {/* <div>
-                                <p>Even if you don’t have contacts to market to yet, you can always log in and start playing around with our design tools. In fact, we recommend it.</p>
-                            </div> */}
-
-                                {/* <div className="boom-MailChimp9-button">
-                                    <button className="button">
-                                        See What's Possible
-                                    </button>
-                                </div> */}
-
+                           
                                 <div className="boom-MailChimp9-button">
                                     <Button
                                         className="Marketing-btn-buy"
@@ -406,7 +393,7 @@ const MailChimp = () => {
                                         w="100%"
                                         h="100%"
                                         mb="50px"
-                                        // bg="#FFE01B"
+                                        mt="10"
                                         border="1px solid black"
                                         borderRadius="50px"
                                     >
@@ -481,6 +468,7 @@ const MailChimp = () => {
                                         h="100%"
                                         mb="50px"
                                         // bg="#FFE01B"
+                                        mt="10"
                                         border="1px solid black"
                                         borderRadius="50px"
                                     >
@@ -574,7 +562,7 @@ const MailChimp = () => {
                     <div>
                         <div className="boom_MailChimp-Last">
                             <div className="Last1">
-                                <img src="https://eep.io/images/yzco4xsimv0y/5C4St15tsmVj3DRu4pCDJ9/5d9ce3c10810d02d4db4d8b2efa81faf/Mailchimp-101.png?w=280&fm=webp&q=80" />
+                                <img src="https://eep.io/images/yzco4xsimv0y/5C4St15tsmVj3DRu4pCDJ9/5d9ce3c10810d02d4db4d8b2efa81faf/Mailchimp-101.png?w=280&fm=webp&q=80" alt="jpg"/>
                             </div>
                             <div className="Last2">
                                 <h1>Success is yours</h1>
@@ -585,14 +573,14 @@ const MailChimp = () => {
 
                 </Container>
 
-                <Container
+                <Container maxW="100%"
                     border="solid #ffe01b 1px"
-                    bgColor="#ffe01b" marginTop="60px" marginBottom="30px">
-                    <Box margin="auto" marginTop="100px">
+                    bgColor="#ffe01b" marginTop="60px"  centerContent>
+                    <Box margin="auto" marginTop="100px" marginBottom="10px"  >
                         <Text fontSize="3vw">It’s easy to get started</Text>
                     </Box>
 
-                    <Box margin="auto" marginTop="-10px">
+                    <Box margin="auto" marginTop="-10px" marginBottom="10px" >
                         <Text fontSize="2vw" fontWeight="300">And it’s free. Two things everyone loves.</Text>
                     </Box>
 
@@ -614,7 +602,7 @@ const MailChimp = () => {
                     </Box>
                 </Container>
 
-            </div>
+            {/* </div> */}
             <Footer/>
         </div>
     )

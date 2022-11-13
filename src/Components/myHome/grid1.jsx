@@ -33,6 +33,7 @@ function GridOne(props) {
             borderRadius="50px"
             w="120px"
             h="50px"
+            pos="-moz-initial"
           >
             Learn more
           </Button>
