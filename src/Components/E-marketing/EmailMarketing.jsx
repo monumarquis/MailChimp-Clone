@@ -1,9 +1,6 @@
 import React from "react";
 import './email.css';
 import { Box, Button, CheckboxIcon, Container, Flex, Grid, GridItem, Heading, Image, Text } from "@chakra-ui/react";
-// import AiOutlineArrowRight from 'react-icons/AiOutlineArrowRight';
-// angle right
-// import AiOutlineArrowRight from "react-icons";
 import { MdDone } from "react-icons/md";
 import Footer from"../Footer/Footer"
 export const EmailMarketing = () => {
