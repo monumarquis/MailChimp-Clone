@@ -86,9 +86,13 @@ const StoreSetUp = () => {
                                 <Box w="80%"  height="20px" marginTop="20px">
                                         
                                 </Box>
-                                    <Box border="2px solid" height="120px" w= "150px" ml="5%">
+                                    <Box  height="120px" w= "150px" ml="5%">
                                         <Text fontWeight='bold'> {`Name : ${data.name =="" ? "" : data.name}`}</Text>
                                         <Text fontWeight='bold'> {` Price : ${data.price == "" ? "" : data.price}`}</Text>
+                                        <Text fontWeight='bold'> {` Quantity : ${data.Qty == "" ? "" : data.Qty}`}</Text>
+                                        <Text fontWeight='bold'> {` Description : ${data.description == "" ? "" : data.description}`}</Text>
+     
+                                       
                                         {/* <Text> {data.}</Text> */}
                                     </Box>
                                     
